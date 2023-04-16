@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #fddb00;
+    width: 100%;
+}
+.header__body{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    width: 100px;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu-link {
+    margin-left: 30px;
+}
+.header__menu-link a{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow:  2px 2px 20px #000;
+    transition: 0.5s;
+}
+.header__menu-link a:hover{
+    text-shadow:  2px 2px 10px #000;
+    
+}
+
+body{
+    background-color: #ffe74e;
+}
+.box{
+    display: flex;
+
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #000;
+}
+    
+
+
+h1{
+    text-align: center;
+}
+h2,p{
+    text-align: center;
+}
+input{
+    background: transparent;
+    outline: none;
+    /* border: 0; */
+}
+#Title{
+    margin-top: 20px;
+}
+.main-box{
+    width: 500px;
+    margin: 80px auto;
+}
+.box-regestration{
+    /* margin: 10 auto; */
+    height: 500px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-family: 'Alkatra', cursive;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px #000;
+}
+.block{
+    margin-left: 100px;
+    margin-top: 100px;
+    border-bottom:3px solid #000;
+    width: 300px;
+    height: 25px;
+}
+input{
+    border: 0px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-family: 'Alkatra', cursive;
+    background: #fff;
+    color: #000000;
+    border: 0;
+    transition: 0.7s;
+}
+.button:hover{
+    background: rgb(255, 247, 0);
+    color:#000;
+    
+}
+.box-regestration:nth-child(2){
+    margin-left:470px;
+}
+
+
+
+.main-block{
+    width: 1200px;
+}
+
+.box-block{
+    background: #000000;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.block-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#checkbox{
+    margin-left: -100px;
+}
